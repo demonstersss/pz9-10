@@ -1,0 +1,21 @@
+20
+Ozon 3000 Москва 1800 0 0
+Wildberries 35000 Москва 7500 2 0
+Samokat 1200 Питер 850 0 0
+KazanExpress 550 Казань 400 2 2
+VkusVill 1500 Москва 1300 0 0
+Yandex_Market 18000 Москва 4200 2 0
+SberMarket 2500 Москва 1600 0 1
+Lamoda 900 Москва 1150 2 0
+AliExpress 11000 Ханчжоу 9500 2 1
+Leroy_Merlin 160 Париж 2100 1 0
+Magnit 4500 Краснодар 950 0 1
+Auchan 350 Лилль 650 0 1
+IKEA 45 Делфт 1550 1 0
+Lenta 480 Питер 420 0 1
+Perekrestok 720 Москва 750 0 0
+Metro 110 Мюнхен 520 0 2
+Hoff 65 Москва 310 1 0
+Sokolov 420 Кострома 220 2 2
+FixPrice 5200 Химки 1850 1 0
+Petrovich 210 Питер 460 1 0
