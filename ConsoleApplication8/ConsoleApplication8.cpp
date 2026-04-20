@@ -270,8 +270,17 @@ struct MarketArray {
             fin.read((char*)&mpType, sizeof(mpType));
             fin.read((char*)&bType, sizeof(bType));
 
-            data[i].typesInfo.marketPlaceType = static_cast<MarketPlaceType>(mpType);
-            data[i].typesInfo.businessType = static_cast<BusinessType>(bType);
+            switch (mpType) {
+            case 0:  data[i].typesInfo.marketPlaceType = grocery; break;
+            case 1:  data[i].typesInfo.marketPlaceType = homeGoods; break;
+            case 2:  data[i].typesInfo.marketPlaceType = stuff; break;
+            }
+            
+            switch (bType) {
+            case 0:  data[i].typesInfo.businessType = primary; break;
+            case 1:  data[i].typesInfo.businessType = auxiliary; break;
+            case 2:  data[i].typesInfo.businessType = franchise; break;
+            }
         }
 
         fin.close();
